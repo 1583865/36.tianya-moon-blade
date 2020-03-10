@@ -1,0 +1,75 @@
+
+html {
+	height: 100%;
+}
+ul,ol {
+	list-style: none;
+}
+a {
+	text-decoration: none;
+	color: #000;
+}
+body {
+    height: 100%;
+	background:url("./img/1.jpg") ;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	margin: 0;
+	/*背景填充*/
+	overflow: hidden;
+}
+.wrap {
+	position: relative;
+	height: 300px;
+	margin-top: 200px;
+	background-color: #999;
+}
+.wrap .bg-box {
+	height: 300px;
+	background: url("./img/1.jpg") no-repeat center/cover;
+	opacity: 0.7;
+
+}
+.wrap .hero-box {
+	position: absolute;
+	top:-50px;
+	left: 50px;
+	width: 200px;
+	height: 400px;
+	background: url("./img/9.jpg") no-repeat 0/cover;
+	opacity: 0.7;
+}
+.wrap .hero-box h2 {
+	margin: 0;
+	height: 49px;
+	line-height: 49px;
+	text-align: center;
+	color: wheat;
+	border-bottom: solid 1px wheat;
+}
+.wrap .hero-box a {
+	display: block;
+	height: 49px;
+	line-height: 49px;
+	text-align: center;
+	color: wheat;
+	border-bottom: solid 1px wheat;
+
+}
+.wrap .hero-box a:hover {
+	background-color: lightblue;
+
+	}
+.wrap .hero-box a img {
+	width: 500px;
+	height: 500px;
+		position: absolute;
+		top: -72px;
+		left: 280px;
+		display: none;
+		background: rgba (0,0,0,.9);
+	}
+.wrap .hero-box a:hover img {
+	display: block;
+}
